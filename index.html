@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAMASTE NEPAL</title>
+    <title>Basic Form Design Using HTML</title>
 </head>
 <body>
+    <h1>GEEKS FOR GEEKS</h1>
+    <h3>Basic form design using HTML</h3>
+
+    <!--creating form-->
+    <form action="#">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <!--label and input field-->
+            <p>
+            <label>First Name:<input name ="FirstName" </label>
+            </p>
+            <p>
+            <label>Last Name:<input name ="LirstName" </label>
+            </p>    
+            <!--label and radio button field-->
+            <p>
+            Gender :
+            <label><input type="radio" name ="gender" value="male" />Male</label>
+            <label><input type="radio" name ="gender" value="female" />Female</label>
+            </p>
+            <p>
+            <label>Email :<input type="Email" name="email"/></label>
+            </p>
+            <p>
+                <label>Date of Birth :<input type="date"name="dateofbirth"/></label>
+            </p>
+            <!--label and textarea field-->
+            <p>
+                <label>
+                    Address :
+                    <br/>
+                    <textarea name="address"  cols="30" rows="3"></textarea>
+                </label>
+            </p>
+            <!--crating submit button-->
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </fieldset>
+    </form>
     
 </body>
 </html>
